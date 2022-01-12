@@ -65,6 +65,7 @@ export default class Tsp extends Component {
       clicked: false,
       ruta: false
     };
+    
     this.print = this.print.bind(this);
     this.mostrar = this.mostrar.bind(this);
     this.limpiar = this.limpiar.bind(this);

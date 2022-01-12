@@ -3,6 +3,10 @@ language: node_js
 node_js:
   - "12"
 before_script:
+  - apt-get update -qy
+  - apt-get install -y ruby-dev
+  - gem install dpl--pre
+  - gem install bundler
   - yarn install
 script:
   - yarn build

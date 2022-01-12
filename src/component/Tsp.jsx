@@ -79,6 +79,7 @@ export default class Tsp extends Component {
 
   print() {
     if (this.X != null) {
+      
       this.limpiar();
     }
 

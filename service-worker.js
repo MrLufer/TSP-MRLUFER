@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/TSP-MRLUFER/precache-manifest.2fb793adba29678cebe1658e04feea81.js"
+  "/TSP-MRLUFER/precache-manifest.8c6e7d57d2c25206aad41abc3215cedf.js"
 );
 
 self.addEventListener('message', (event) => {

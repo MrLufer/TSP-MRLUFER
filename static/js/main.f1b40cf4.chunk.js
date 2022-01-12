@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{16:function(e,n,t){e.exports=t(27)},21:function(e,n,t){},27:function(e,n,t){"use strict";t.r(n);var a=t(0),r=t.n(a),c=t(12),o=t.n(c),u=(t(21),t(13)),l=t(1),i=function(){return r.a.createElement("h1",null,"React app travis")},p=function(e){return r.a.createElement(u.a,null,r.a.createElement("div",{id:"margen"},r.a.createElement(l.a,{exact:!0,path:"/",component:i})))};o.a.render(r.a.createElement(p,null),document.getElementById("root"))}},[[16,1,2]]]);
-//# sourceMappingURL=main.f1b40cf4.chunk.js.map

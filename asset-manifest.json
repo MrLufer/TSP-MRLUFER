@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/TSP-MRLUFER/static/css/main.ff1e6f7c.chunk.css",
-    "main.js": "/TSP-MRLUFER/static/js/main.f1b40cf4.chunk.js",
-    "main.js.map": "/TSP-MRLUFER/static/js/main.f1b40cf4.chunk.js.map",
+    "main.js": "/TSP-MRLUFER/static/js/main.8f8c975d.chunk.js",
+    "main.js.map": "/TSP-MRLUFER/static/js/main.8f8c975d.chunk.js.map",
     "runtime~main.js": "/TSP-MRLUFER/static/js/runtime~main.cc4166f0.js",
     "runtime~main.js.map": "/TSP-MRLUFER/static/js/runtime~main.cc4166f0.js.map",
-    "static/js/2.87e79ff9.chunk.js": "/TSP-MRLUFER/static/js/2.87e79ff9.chunk.js",
-    "static/js/2.87e79ff9.chunk.js.map": "/TSP-MRLUFER/static/js/2.87e79ff9.chunk.js.map",
+    "static/js/2.668e47f7.chunk.js": "/TSP-MRLUFER/static/js/2.668e47f7.chunk.js",
+    "static/js/2.668e47f7.chunk.js.map": "/TSP-MRLUFER/static/js/2.668e47f7.chunk.js.map",
     "index.html": "/TSP-MRLUFER/index.html",
-    "precache-manifest.2fb793adba29678cebe1658e04feea81.js": "/TSP-MRLUFER/precache-manifest.2fb793adba29678cebe1658e04feea81.js",
+    "precache-manifest.8c6e7d57d2c25206aad41abc3215cedf.js": "/TSP-MRLUFER/precache-manifest.8c6e7d57d2c25206aad41abc3215cedf.js",
     "service-worker.js": "/TSP-MRLUFER/service-worker.js",
     "static/css/main.ff1e6f7c.chunk.css.map": "/TSP-MRLUFER/static/css/main.ff1e6f7c.chunk.css.map"
   }

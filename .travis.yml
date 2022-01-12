@@ -9,9 +9,13 @@ git:
 script:
   - yarn build
 deploy:
-  provider: firebase
-  skip_cleanup: true
-  token:
-    secure: $FIREBASE_TOKEN
+  provider: pages
+  edge: true
+  skip-cleanup: true
+  keep-history: true
+  github-token: $GITHUB_TOKEN
+  local-dir: build
+  target-branch: gh-pages
+  commit_message: "Deploy release"
   on:
     branch: master

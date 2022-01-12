@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+  - "12"
+
+script:
+  - npm test
+  - npm run build
+
+deploy:
+  provider: heroku
+  app: test-tsp
+  api_key:
+    secure: 47b5cd0a-296e-4514-8e63-ce749b0791d7

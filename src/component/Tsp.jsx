@@ -14,6 +14,8 @@ class NewComponent extends React.Component {
           {this.props.data.map(x => (
             <div>{Math.round(x)},</div> // IMPRIME REDONDEANDO LOS VALORES DEL VECTOR X
           ))}
+
+          
         </ul>
 
         <div>Eje y</div>
@@ -79,7 +81,7 @@ export default class Tsp extends Component {
 
   print() {
     if (this.X != null) {
-      
+
       this.limpiar();
     }
 

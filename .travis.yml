@@ -1,15 +1,15 @@
 language: node_js
-
-node_js:
-  - "12"
-before_script:
-  - gem install bundler
-  - yarn install
-script:
-  - yarn build
-
+ node_js:
+ - "stable"
+ cache:
+ directories:
+   - node_modules
+ script:
+ - npm run build
 deploy:
-  provider: heroku
-  app: test-tsp
-  api_key:
-    secure: 47b5cd0a-296e-4514-8e63-ce749b0791d7
+ provider: pages
+ skip_cleanup: true
+ github_token: $TOKEN_GITHUB
+ local_dir: build
+ on:
+   branch: master

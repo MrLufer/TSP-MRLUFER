@@ -15,6 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "firebase": "firebase deploy",
     "cypress": "cypress open",
     "cypress:run": "cypress run --record --key a0567081-02d1-4d0c-a9df-0c6c635f05d2"
   },

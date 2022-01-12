@@ -8,7 +8,7 @@ git:
   depth: 3
 script:
   - yarn build
-  - firebase deploy
+  - yarn firebase
 deploy:
   provider: pages
   edge: true
